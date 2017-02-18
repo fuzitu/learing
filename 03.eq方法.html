@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<script src="Timo.js"></script>
+	<script>
+		var dom=$('div');
+		console.log(dom.get(1).innerHTML);
+		console.log(dom.eq(0)[0].innerHTML);
+		console.log(dom.first()[0].innerHTML);
+		console.log(dom.last()[0].innerHTML);
+	</script>
+</body>
+</html>
